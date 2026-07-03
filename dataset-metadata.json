@@ -1,0 +1,8 @@
+{
+  "title": "The War Atlas — 3,010 Battles Across 493 Wars",
+  "id": "REPLACE_WITH_KAGGLE_USERNAME/the-war-atlas",
+  "licenses": [{ "name": "CC-BY-4.0" }],
+  "subtitle": "Source-cited force & casualty ranges, coordinates, commanders, and factions for 3,010 historical battles",
+  "description": "Structured facts from The War Atlas (https://thewaratlas.co) battles catalogue: 3,010 battles across 493 wars, with dates, coordinates (with precision provenance), results, source-cited force-strength and casualty ranges (kept as honest low-high ranges with per-row confidence levels, never false-precision point estimates), 8,012 commanders, 425 factions, and 19,020 source references.\n\nEntity data is normalized largely from Wikidata (CC0) and Wikipedia infoboxes, cross-linked into a single relational catalogue. Structured facts only - harvested Wikipedia prose (CC BY-SA) is deliberately excluded so the compilation can be licensed CC BY 4.0.\n\nEvery row links back to a live interactive page (battle maps with campaign playback, commander timelines, cross-cuts by era/theater/year/faction) at https://thewaratlas.co. Canonical dataset page: https://thewaratlas.co/data\n\nAttribution: Data from The War Atlas (thewaratlas.co), CC BY 4.0.",
+  "keywords": ["history", "military", "war", "battles", "geospatial", "wikidata"]
+}
