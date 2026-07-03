@@ -1,0 +1,42 @@
+{
+  "name": "The War Atlas — Open Dataset",
+  "description": "Structured facts from The War Atlas battles catalogue: battles with dates, coordinates (with precision provenance), results, source-cited force-strength and casualty ranges, wars, commanders, factions, and source references. Contains structured data only — harvested Wikipedia prose (CC BY-SA) is deliberately excluded so the compilation can be licensed CC BY 4.0.",
+  "version": "2026-07-03",
+  "generated_at": "2026-07-03T02:20:23.431908+00:00",
+  "site": "https://thewaratlas.co",
+  "dataset_page": "https://thewaratlas.co/data",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "The War Atlas — thewaratlas.co",
+    "attribution_url": "https://thewaratlas.co",
+    "notes": "Free to share and adapt with attribution. Please credit 'The War Atlas — thewaratlas.co' and link to https://thewaratlas.co. Underlying facts are largely derived from Wikidata (CC0); the compilation, selection, and curation are licensed CC BY 4.0."
+  },
+  "citation": "The War Atlas (2026). The War Atlas Open Dataset (version 2026-07-03). https://thewaratlas.co/data",
+  "files": {
+    "battles.csv": {
+      "rows": 3010
+    },
+    "battle_forces.csv": {
+      "rows": 3905
+    },
+    "battle_casualties.csv": {
+      "rows": 2713
+    },
+    "wars.csv": {
+      "rows": 493
+    },
+    "commanders.csv": {
+      "rows": 8012
+    },
+    "factions.csv": {
+      "rows": 425
+    },
+    "sources.csv": {
+      "rows": 19020
+    },
+    "battles.json": {
+      "rows": 3010
+    }
+  }
+}
