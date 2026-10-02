@@ -242,6 +242,7 @@ def stats(T: dict) -> dict:
     decades = Counter((y // 25) * 25 for y in years)
     grid = Counter((int((float(b["lat"]) + 90) // 3), int((float(b["lng"]) + 180) // 3)) for b in with_coords)
     wiki = Counter(b["wikipedia_url"] for b in B)
+    wy = {w["slug"]: (w["start_year"], w["end_year"]) for w in W}
     shared_wiki = {u: n for u, n in wiki.items() if n > 1}
     return {
         "rows": {f: len(T[f]) for f in FLOORS},
@@ -262,6 +263,7 @@ def stats(T: dict) -> dict:
             "intensity_zero": sum(1 for b in B if b["intensity"] == "0"),
             "wikipedia_url_shared": {"urls": len(shared_wiki), "battles": sum(shared_wiki.values())},
             "wikipedia_url_equals_title": sum(1 for b in B if b["wikipedia_url"] == "https://en.wikipedia.org/wiki/" + b["title"].replace(" ", "_")),
+            "outside_war_years": sum(1 for b in B if not int(wy[b["war_slug"]][0]) <= int(b["year"]) <= int(wy[b["war_slug"]][1])),
             "same_title_and_year_pairs": sum(1 for n in Counter((b["title"], b["year"]) for b in B).values() if n > 1),
             "per_25_years": {str(k): v for k, v in sorted(decades.items())},
         },
