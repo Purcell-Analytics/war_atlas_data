@@ -1,0 +1,14 @@
+{
+  "name": "quickstart_js",
+  "command": [
+    "node",
+    "examples/quickstart.mjs"
+  ],
+  "exit_code": 0,
+  "captured_at": "2026-10-02T01:30:15+00:00",
+  "commit": "bb24cea0afa5f3e27e29c36468c336aa481cc37b",
+  "line_count": 6,
+  "env_passed": [],
+  "note": "",
+  "output": "3010 battles, 2477 as GeoJSON points\nBattle of Ayacucho 1824 1824-12-09\n  force  Patriots: 5780-8500\n  force  Royalists: 6906-9310\n  losses Royalists: 2500-2500\n  4 commanders, 1 source references\n"
+}

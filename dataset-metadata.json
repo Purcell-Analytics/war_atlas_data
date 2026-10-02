@@ -1,8 +1,19 @@
 {
-  "title": "The War Atlas — 3,010 Battles Across 493 Wars",
+  "title": "The War Atlas: 3,010 Battles Across 493 Wars",
   "id": "REPLACE_WITH_KAGGLE_USERNAME/the-war-atlas",
-  "licenses": [{ "name": "CC-BY-4.0" }],
-  "subtitle": "Source-cited force & casualty ranges, coordinates, commanders, and factions for 3,010 historical battles",
-  "description": "Structured facts from The War Atlas (https://thewaratlas.co) battles catalogue: 3,010 battles across 493 wars, with dates, coordinates (with precision provenance), results, source-cited force-strength and casualty ranges (kept as honest low-high ranges with per-row confidence levels, never false-precision point estimates), 8,012 commanders, 425 factions, and 19,020 source references.\n\nEntity data is normalized largely from Wikidata (CC0) and Wikipedia infoboxes, cross-linked into a single relational catalogue. Structured facts only - harvested Wikipedia prose (CC BY-SA) is deliberately excluded so the compilation can be licensed CC BY 4.0.\n\nEvery row links back to a live interactive page (battle maps with campaign playback, commander timelines, cross-cuts by era/theater/year/faction) at https://thewaratlas.co. Canonical dataset page: https://thewaratlas.co/data\n\nAttribution: Data from The War Atlas (thewaratlas.co), CC BY 4.0.",
-  "keywords": ["history", "military", "war", "battles", "geospatial", "wikidata"]
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "subtitle": "Force and casualty estimates, coordinates, commanders, and factions for 3,010 historical battles",
+  "description": "Structured facts from The War Atlas (https://thewaratlas.co) battles catalogue: 3,010 battles across 493 wars (325 with at least one battle), with dates, coordinates for 2,477 battles (each tagged exact or place-level, with its Wikidata provenance), 3,905 force-strength and 2,713 casualty estimates stored as low/high integers, 8,012 commanders, 425 factions, and 19,020 bibliographic source records.\n\nCoverage, stated plainly: sources are linked at the battle level for 1,379 battles; only 109 estimate rows name their own source; most estimates have low equal to high; every estimate row has confidence 'medium'. The repository README lists all known limitations and the integrity checks run in CI.\n\nEntity data is normalized largely from Wikidata (CC0) and Wikipedia infoboxes, cross-linked into a single relational catalogue. Structured facts only: harvested Wikipedia prose (CC BY-SA) is deliberately excluded so the compilation can be licensed CC BY 4.0.\n\nEvery battle, war, commander, and faction row links to its page at https://thewaratlas.co. Canonical dataset page: https://thewaratlas.co/data\n\nAttribution: Data from The War Atlas (thewaratlas.co), CC BY 4.0.",
+  "keywords": [
+    "history",
+    "military",
+    "war",
+    "battles",
+    "geospatial",
+    "wikidata"
+  ]
 }

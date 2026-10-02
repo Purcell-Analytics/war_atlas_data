@@ -1,0 +1,20 @@
+{
+  "name": "quickstart_py",
+  "command": [
+    "uv",
+    "run",
+    "--no-project",
+    "--quiet",
+    "--with",
+    "pandas",
+    "python",
+    "examples/quickstart.py"
+  ],
+  "exit_code": 0,
+  "captured_at": "2026-10-02T01:30:15+00:00",
+  "commit": "bb24cea0afa5f3e27e29c36468c336aa481cc37b",
+  "line_count": 8,
+  "env_passed": [],
+  "note": "",
+  "output": "3,010 battles, 493 wars listed, 325 wars with at least one battle\n2,477 battles have coordinates: {'exact': 2052, 'place': 425}\n                    title  year           side  strength_low  strength_high\n         Battles of Rzhev  1942   Soviet Union       3680300        3680300\n            Great Retreat  1915 Russian Empire       2975695        2975695\n    Battle of the Dnieper  1943   Soviet Union       2633000        2633000\nBattle of the Oder\u2013Neisse  1945   Soviet Union       2500000        2500000\n            Great Retreat  1915  German Empire       2411353        2411353\n"
+}
